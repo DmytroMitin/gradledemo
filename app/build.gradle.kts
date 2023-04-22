@@ -27,7 +27,7 @@ scala {
 //https://stackoverflow.com/questions/54878493/scala-build-error-on-java-11-using-intellijidea
 tasks.withType<ScalaCompile>() {
     targetCompatibility = ""
-    scalaCompileOptions.additionalParameters = listOf("-target:17")
+    scalaCompileOptions.additionalParameters = listOf("-release:17")
 }
 
 application {
